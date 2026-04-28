@@ -52,7 +52,7 @@ All your business devices (laptop, phone, etc.) connect to the **$\color{red}{\t
 ## Important Notes Before You Start
 
 - **Separate business and private devices.** Do not use private devices for business purposes.
-- **Business devices must always be connected to$\color{red}{\text{ the VPN Client Router (Slate 7).}}$** Never connect them directly to a local hotel Wi-Fi, hotspot, or ISP without going through $\color{red}{\text{Slate 7}}$ first.
+- **Business devices must always be connected to the $\color{red}{\text{VPN Client Router (Slate 7)}}$.** Never connect them directly to a local hotel Wi-Fi, hotspot, or ISP without going through $\color{red}{\text{Slate 7}}$ first.
 - Keep firmware updates for both routers scheduled on **non-working days**. A firmware update will trigger an automatic reboot, and the router may prompt you to confirm whether to keep the existing configuration — make sure someone is physically near the router to handle any such prompts and confirm the router comes back up correctly.
 
 ### What if you need to go outside with a business phone?
@@ -162,7 +162,7 @@ This is the router you carry with you. It connects to whatever $\color{red}{\tex
 
 DNS is like a phone book for the internet — it translates website names (e.g. `google.com`) into IP addresses computers use to connect. Every ISP has its own DNS server, and using the wrong one can reveal your real location even if your IP address is hidden (this is called a DNS leak).
 
-By default, $\color{red}{\text{Slate 7}}$ might use the DNS of whatever local internet it is connected to $\color{red}{\text{(e.g. a foreign ISP)}}$. We need to tell it to use $\color{green}{\text{Flint 3's DNS }}$instead, so all lookups appear to come from the $\color{green}{\text{allowed country}}$.
+By default, $\color{red}{\text{Slate 7}}$ might use the DNS of whatever local internet it is connected to $\color{red}{\text{(e.g. a foreign ISP)}}$. We need to tell it to use $\color{green}{\text{Flint 3's DNS}}$ instead, so all lookups appear to come from the $\color{green}{\text{allowed country}}$.
 
 In the $\color{red}{\text{Slate 7}}$ admin panel, go to **Network > DNS**, switch to **Manual mode**, and enter the DNS IP from the config file (the `DNS` value under `[Interface]`, e.g. `10.1.0.1`).
 
