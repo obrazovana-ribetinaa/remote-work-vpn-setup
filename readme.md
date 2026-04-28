@@ -1,4 +1,4 @@
-# How to Set Up a VPN Client and VPN Server Router
+# How to Set Up a VPN Client and VPN Server Router ([Youtube tutorial](https://www.youtube.com/watch?v=v_DyRGicWco&list=PLRKQGqHIdxtILJVquH9kDaFHCEvHy2j2_&t=32s))
 
 > **Colour legend used throughout this guide:**
 > - $\color{green}{\text{Green}}$ — infrastructure located in the **allowed country** (VPN Server Router, Flint 3, local Home/ISP Router)
